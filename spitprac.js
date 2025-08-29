@@ -20,5 +20,8 @@
 // }
 // console.log(ans);
 
+// functions
+
+
 
 
