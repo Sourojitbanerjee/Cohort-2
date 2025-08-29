@@ -1,7 +1,17 @@
-function findsum(a, b){
-    return a + b;
-    
+// 
+function sum (num1, num2, fnToCall){
+    let result = num1 + num2;
+    return result;
 }
 
-const value = sum(1, 2)
-console.log(value);
+function displayResult(data){
+    console.log("Result of the sum is : " + data);
+}
+
+function displayResultPasive(data){
+    console.log("Sum's result is : " + data);
+}
+
+// const ans = sum(1, 4);
+// displayResult(ans);
+
