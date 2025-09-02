@@ -1,4 +1,4 @@
-function sayHello(){
+// function sayHello(){
 //     console.log("Hello Souro");
 // }
 // sayHello();
@@ -7,4 +7,4 @@ function sayHello(){
 // function greet(name){
 //     console.log("Hi " + name + "!");
 // }
-// greet( "Souro");
+// greet( "Souro")};

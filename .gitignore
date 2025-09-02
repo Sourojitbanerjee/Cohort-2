@@ -1,5 +1,62 @@
-# Object file
-*.o
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Ada Library Information
-*.ali
+# Node modules
+node_modules/
+.npm/
+.cache/
+
+# System files
+.DS_Store
+.bash_history
+.zsh_history
+.viminfo
+
+# MongoDB data
+*.bson
+dump/
+data/
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+*.log
+
+# System / User files
+.DS_Store
+.bash_history
+.zsh_history
+.viminfo
+.node_repl_history
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Environment variables
+.env
+.env.*
+
+# Build / Cache
+dist/
+build/
+.cache/
+.next/
+out/
+
+# MongoDB data dumps
+*.bson
+*.wt
+*.ns
+*.lock
+dump/
+data/
