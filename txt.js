@@ -30,7 +30,7 @@ return val1+val2;
 
 function sumofCubes(a, b){
     const val1 = Cube(a);
-    const val1 = Cube(b);
+    const val2 = Cube(b);
 }
 return val1+val2;
 
