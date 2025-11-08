@@ -9,9 +9,21 @@ function App() {
 
   return (
     <div>
-      <button onClick={onClickHandler}>Counter {count}</button>
+      <CustomButton count = {count} setCount = {setCount}></CustomButton>
+      {/* <button onClick={onClickHandler}>Counter {count}</button> */}
     </div>
   );
 }
+function CustomButton(props){
 
+  function onClickHandler(){
+    props.setCount(props.count + 1);
+  }
+  // {
+  //   count: 2
+  // }
+  return <button onClick = {onClickHandler}>
+    counter {props.count}
+  </button>
+}
 export default App;
